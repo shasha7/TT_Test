@@ -15,6 +15,8 @@
 		93F28E16206F908C006B90EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F28E15206F908C006B90EC /* main.m */; };
 		93F28E20206F908D006B90EC /* TTTestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F28E1F206F908D006B90EC /* TTTestProjectTests.m */; };
 		93F28E2B206F908D006B90EC /* TTTestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F28E2A206F908D006B90EC /* TTTestProjectUITests.m */; };
+		93F28E3A206F91F1006B90EC /* TTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F28E39206F91F0006B90EC /* TTFeedbackViewController.m */; };
+		93F28E4920701E1E006B90EC /* UILabel+HCYLabelTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F28E4820701E1D006B90EC /* UILabel+HCYLabelTapAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		93F28E26206F908D006B90EC /* TTTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F28E2A206F908D006B90EC /* TTTestProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTestProjectUITests.m; sourceTree = "<group>"; };
 		93F28E2C206F908D006B90EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F28E38206F91F0006B90EC /* TTFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFeedbackViewController.h; sourceTree = "<group>"; };
+		93F28E39206F91F0006B90EC /* TTFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFeedbackViewController.m; sourceTree = "<group>"; };
+		93F28E4720701E1D006B90EC /* UILabel+HCYLabelTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HCYLabelTapAction.h"; sourceTree = "<group>"; };
+		93F28E4820701E1D006B90EC /* UILabel+HCYLabelTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HCYLabelTapAction.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 		93F28E05206F908C006B90EC /* TTTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				93F28E40207002AF006B90EC /* Cate */,
 				93F28E06206F908C006B90EC /* AppDelegate.h */,
 				93F28E07206F908C006B90EC /* AppDelegate.m */,
 				93F28E09206F908C006B90EC /* ViewController.h */,
 				93F28E0A206F908C006B90EC /* ViewController.m */,
+				93F28E38206F91F0006B90EC /* TTFeedbackViewController.h */,
+				93F28E39206F91F0006B90EC /* TTFeedbackViewController.m */,
 				93F28E0C206F908C006B90EC /* Main.storyboard */,
 				93F28E0F206F908C006B90EC /* Assets.xcassets */,
 				93F28E11206F908C006B90EC /* LaunchScreen.storyboard */,
@@ -130,6 +139,15 @@
 				93F28E2C206F908D006B90EC /* Info.plist */,
 			);
 			path = TTTestProjectUITests;
+			sourceTree = "<group>";
+		};
+		93F28E40207002AF006B90EC /* Cate */ = {
+			isa = PBXGroup;
+			children = (
+				93F28E4720701E1D006B90EC /* UILabel+HCYLabelTapAction.h */,
+				93F28E4820701E1D006B90EC /* UILabel+HCYLabelTapAction.m */,
+			);
+			path = Cate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				93F28E0B206F908C006B90EC /* ViewController.m in Sources */,
+				93F28E3A206F91F1006B90EC /* TTFeedbackViewController.m in Sources */,
 				93F28E16206F908C006B90EC /* main.m in Sources */,
 				93F28E08206F908C006B90EC /* AppDelegate.m in Sources */,
+				93F28E4920701E1E006B90EC /* UILabel+HCYLabelTapAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
